@@ -38,6 +38,7 @@ function Login() {
             <TouchableOpacity style={styles.button} onPress={onPress}>
             <Text style={styles.title}>{item}</Text>
             </TouchableOpacity>
+            
         </View>
       )}
       renderSectionHeader={({section: {title}}) => (

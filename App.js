@@ -7,7 +7,7 @@ import Login from './components/screens/Login';
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Login">
+      <Stack.Navigator initialRouteName="MainPage">
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="HomeScreen" component={MainPage} />
         <Stack.Screen name="Dashboard" component={Dashboard} />
